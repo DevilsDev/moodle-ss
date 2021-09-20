@@ -1,0 +1,23 @@
+{
+  "name": "moodle-ss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevilsDev/moodle-ss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevilsDev/moodle-ss/issues"
+  },
+  "homepage": "https://github.com/DevilsDev/moodle-ss#readme",
+  "dependencies": {
+    "style-dictionary": "^3.0.2"
+  }
+}
