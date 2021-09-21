@@ -1,0 +1,11 @@
+{{!-- views/users/userProfile.hbs --}}
+
+{{#if user}}
+<h2>Welcome, {{ user.username }}!</h2>
+<p>Profile page</p>
+<button>
+    <a href="/user-profile">Reload the page</a>
+</button>
+{{else}}
+<p>No logged in user, sorry!</p>
+{{/if}}
