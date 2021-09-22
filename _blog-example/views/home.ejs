@@ -5,9 +5,9 @@
 <%console.log(posts);%>
 
 <% posts.forEach(function(post){ %>
-    <h1><%= post.title%></h1>
+    <h1><%=post.title%></h1>
     <p><%= post.content.substring(0,80) + "..."%>
-        <a href="/posts/<%post.title%>">Keep reading!</a>
+        <a href="/posts/<%=post.title%>">Keep reading!</a>
     </p>
  <% }) %>
 
