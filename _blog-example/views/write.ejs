@@ -1,0 +1,17 @@
+<%-include('partials/header');-%>
+
+<h1>Write Page</h1>
+<link rel='stylesheet' href='/public/ccs/style.css' />
+<form action="/write" method="POST">
+    <div class="form-group"> 
+        <label>Title</label>
+        <input type="text" class="form-control" name="postTitle" value="" placeholder="Write here ..."/>
+
+        <label>Blog</label>
+        <textarea name="postBody" class="form-control" row="4"  col="20" placeholder="Write your blog ..."/></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary" name="button">Post Blog</button> 
+</form>
+
+<%-include('partials/footer');-%>
